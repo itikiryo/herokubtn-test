@@ -1,0 +1,20 @@
+{
+  "name": "angualrjs-seed",
+  "description": "A starter project for angular js",
+  "engines": {
+    "node": "0.10.26",
+    "npm": "2.7.5"
+  },
+  "dependencies": {
+    "express": "^4.9.7",
+    "gzippo": "^0.2.0",
+    "logfmt": "^1.2.0"
+  },
+  "devDependencies": {
+        "phantomjs" : "*",
+        "karma" : "*",
+        "karma-junit-reporter" : "*",    
+        "karma-jasmine" : "*",
+        "karma-ng-scenario" : "*"
+    }
+}
