@@ -6,15 +6,15 @@
     "npm": "2.7.5"
   },
   "dependencies": {
-    "express": "^4.9.7",
+    "express": "^4.15.4",
     "gzippo": "^0.2.0",
     "logfmt": "^1.2.0"
   },
   "devDependencies": {
-        "phantomjs" : "*",
-        "karma" : "*",
-        "karma-junit-reporter" : "*",    
-        "karma-jasmine" : "*",
-        "karma-ng-scenario" : "*"
-    }
+    "phantomjs": "*",
+    "karma": "*",
+    "karma-junit-reporter": "*",
+    "karma-jasmine": "*",
+    "karma-ng-scenario": "*"
+  }
 }
