@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # This is a clone of angular seed tailored for Heroku Deployment
 [Forked from angular-seed] (https://github.com/angular/angular-seed)
 
@@ -110,3 +111,6 @@ e2e-tests/            --> end-to-end tests
   scenarios.js          --> end-to-end scenarios to be run by Protractor
 ```
 
+=======
+# itikiryo
+>>>>>>> d9720dc3c82570bdb8459a96aac5d45482d2813c
