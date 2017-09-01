@@ -1,7 +1,7 @@
 {
   "name": "angualrjs-seed",
   "description": "A starter project for angular js",
-  "main": "index.html",
+  "main": "",
   "license": "MIT",
   "homepage": "",
   "private": true,
