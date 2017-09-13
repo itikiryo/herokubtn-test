@@ -8,5 +8,21 @@ angular.module('myApp', [
   'myApp.version'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/'});
+  $routeProvider
+    .when('/', {
+      templateUrl: 'view1/view1.html',
+      controller: 'view1'
+    })
+    .when('/view1', {
+      templateUrl: 'view1/view1.html',
+      controller: 'view1'
+    })
+    .when('/view2', {
+      templateUrl: 'view2/view2.html',
+      controller: 'view2'
+    })
+    .otherwise({
+      redirectTo: '/'
+    });
+
 }]);
